@@ -1,0 +1,454 @@
+.topi,
+.find {
+	position: absolute;
+	padding-right: 10px;
+	vertical-align: middle;
+	box-sizing: border-box
+}
+
+
+.jane {
+ 
+
+   
+}
+
+.eldery {
+font-size: 1em;
+    font-family: Museo,"sans-serif";
+    width: 100%;
+    overflow-x: hidden; 
+    position: relative;
+	background-size: inherit; 
+    background-attachment: fixed;
+    background-color: #E8E8E8;
+        background-repeat: repeat-x; 
+}
+.shurt { 
+background-image: url(../maleyclone/mood.png);  
+
+    background-repeat: no-repeat;
+	 background-position: center ;
+}
+.shurteuw { 
+background-image: url(../maleyclone/moodi.png);  
+    background-repeat: no-repeat;
+	 background-position: center ;
+}
+
+.felon { 
+    background-image: url(../maleyclone/case.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
+.tie { 
+    background-image: url(http://www.charterbroker.aero/images/bg_footer.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+  
+ 
+  
+.cole {
+	   display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: auto;
+    border: 1px solid black;
+	
+}
+ 
+.abudhabi {
+    position: absolute;
+    margin-top: 503px;
+    border-radius: 5px;
+    width: 534px;
+    background: white;
+    height: auto;
+    padding-bottom: 37px;
+    padding-top: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+	border: 0;
+}
+
+.topi {
+width: 159px;
+    line-height: 22px;
+    letter-spacing: .2px;
+    -webkit-font-smoothing: antialiased;
+    font: 99% Arial, Helvetica, sans-serif;
+    background: green;
+    box-shadow: none;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    position: relative;
+    z-index: 1;
+    height: 19px;
+    padding: 0px 2px 0px;
+    margin-top: 90px;
+    border: 0 !important;
+    padding-left: 3px;
+    font-size: 12px;
+    margin-left: -224px;
+}
+ 
+::placeholder {
+	 
+
+	font-size: 13px;
+	font-weight: 600;
+	color: #1907078f;
+}
+
+.sinput:focus{
+		outline: 0!important; 
+	border: 0;
+	border-radius: 0px;
+	 
+}
+
+ 
+
+.sinput:invalid{
+	outline: 0!important;
+    border: 0;
+    border-radius: 0px; 
+	
+}
+
+.life:focus {
+	border: 0;
+	
+		outline: 0!important;
+} 
+.money {
+border-radius: 2px; display: inline-block; font-size: 16px; line-height: 28px; color: #fff; box-sizing: border-box; cursor: pointer; text-align: center; border: 0; background: blue; overflow-x: auto; font-weight: 700; float: left; margin-left: 97px; margin-top: -46px; width: 61px; height: 21px;
+}
+
+.spend {
+margin-top: 13px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    width: 81px;
+    height: 36px;
+    overflow-x: auto;
+    font-weight: 700;
+    float: right;
+    margin-right: 32px;
+}
+
+.gave {
+    margin-top: -8px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    width: 84px;
+    height: 36px;
+    overflow-x: auto;
+    font-weight: 700;
+    float: right;
+    margin-right: 41px;
+}
+
+.left{
+  float:left;
+}
+
+.clear{
+  clear:both;
+}
+
+body, html {
+  height: 100%;
+}
+
+.box{
+  float: left;
+    overflow: hidden;
+    background: #fffffff5;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: fixed;
+    }
+    /* Add padding and border to inner content
+    for better animation effect */
+     
+	 
+div, span, button{
+font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}	
+
+.hig {
+position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    
+    background-image: url(../maleyclone/allvera.png);
+	
+    font-size: 1em;
+    background-repeat: no-repeat;
+    
+    overflow-x: hidden; 
+    margin-top: 0;
+    z-index: 9999999999999999; 
+}
+
+.brasi {
+position: relative;
+    text-align: center;
+    background-color: #ffffff; 
+    background-image: url(../maleyclone/2login.png);
+	background-size: 368px 567px;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: inherit;
+    margin-top: 0;
+    z-index: 9999999999999999;
+    border-bottom: solid 3px #fff;
+}
+
+.canni {
+position: relative;
+    text-align: center;
+    background-color: #ffffff; 
+    background-image: url(../maleyclone/3login.png);
+	background-size: 368px 516px;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-position: inherit;
+    margin-top: 0;
+    z-index: 9999999999999999;
+    border-bottom: solid 3px #fff;
+}
+
+.moon {
+position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    height: 50px;
+    background-image: url(../maleyclone/moon1.png);
+	background-size: 368px 50px;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    margin-top: 0;
+    z-index: 9999999999999999;
+    border-bottom: solid 3px #fff;
+}
+
+.sun {
+position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    height: 71px;
+    background-image: url(../maleyclone/moon2.png);
+	background-size: 368px 71px;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    margin-top: 0;
+    z-index: 9999999999999999;
+    border-bottom: solid 3px #fff;
+}
+
+.jpui.progress.rectangles li {
+    width: 100%;
+    height: .25rem;
+    background-color: #d8d8d8;
+    border-radius: .0625rem;
+    margin-right: .75rem;
+    border: .0625rem solid blue;
+}
+
+input[type="date"]:not(.has-value):before{
+  
+  	opacity: .7;
+	font-family: roboto;
+	color: #000;
+	font-size: 1rem;
+	font-weight: 700;
+  content: attr(placeholder);
+}
+
+
+span {
+ 
+    
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+
+.displayContainer { 
+    display: block; 
+    width: 100%;
+}
+.bottomFlex {
+    align-self: flex-end;
+}
+.centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} 
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffd54f;
+}
+
+.container {
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+i{
+	color: #0092bc;
+	padding-right: 5px;
+}
+
+
+
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
